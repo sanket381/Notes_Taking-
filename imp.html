@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+     <style>
+       #imp{
+         margin-left: 5px;
+       }
+     </style>
+</head>
+<body>
+    
+    <div class="container col-6 mt-5 lk" >
+
+    <ul id="impparent" class="list-group">
+        <div class="impnotes">
+          <li  class="list-group-item d-flex justify-content-center">
+            <h3 class="flex-grow-1">An item</h3>
+            <button class="btn btn-warning me-2" onclick="editThis(this)">
+                Edit
+              </button>
+            <button class="btn btn-danger" onclick="removeFromList(this)">
+                Remove
+              </button>
+              <button id= "imp" class="btn btn-danger ml-5" onclick="important(this)">
+                imp
+              </button>
+         </li>
+        </div>
+          
+      </ul>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="logic.js"></script>
+
+</body>
+</html>
